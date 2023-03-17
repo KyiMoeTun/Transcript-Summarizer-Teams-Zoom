@@ -45,7 +45,7 @@ Sample Output
 --------------
 This is the summary insights from the transcript. The lines are chronological and each speaker is highlighted by curly bracekts. 
 
-<img src="https://i.imgur.com/wsdmqvi.png" width="600">
+<img src="https://i.imgur.com/wsdmqvi.png" width="700">
 
 
 Aditional Notes
