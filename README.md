@@ -10,16 +10,17 @@ These instructions will help you to run the software code smoothly. Clone or dow
 
 ### Prerequisites
 
-Before running the software code, install the following packages:  
-python>=3.8.6  
-openai>=0.10.2
+To run this project, you need to have Python version 3.8 or above installed in your system. You can download Python from the official website:
 
-You can install them using pip:
+*   [Download Python](https://www.python.org/downloads/)
+
+After installing Python, use pip to install OpenAI module at least 0.10.2 or above:
 
 ```bash
-pip install python>=3.8.6
-pip install openai>=0.10.2
+pip install openai
 ```
+
+If you encounter any issues during installation or while running the project, feel free to raise an issue on this repository.
 
 ### Installing
 
