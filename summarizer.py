@@ -46,7 +46,7 @@ for i, chunk in enumerate(chunks):
 summary = '\n'.join(summary_list)
 
 # Save the results in a text file named 'summary.txt'
-with open("summary.txt", "w") as f:
+with open("results/summary.txt", "w") as f:
     f.write(summary)
 
 # Print final summary
