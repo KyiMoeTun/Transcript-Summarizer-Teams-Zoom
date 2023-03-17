@@ -1,7 +1,7 @@
 Team Zoom Meeting Transcripts Summarizer
 ========================================
 
-This is a python script that uses the OpenAI GPT-3.5-turbo API to summarize a meeting transcript and present insights by each speaker. It splits the transcript file into small chunks of 1300 tokens, summarizes each chunk and aggregates them all into one summary.
+This is a python script that uses the OpenAI GPT-3.5-turbo API to summarize a meeting transcript and present insights by each speaker. It splits the transcript file into small chunks of 1300 tokens, summarizes each chunk and aggregates them all into one summary. This script works on Zoom, Microsoft Teams, or any other time stamped transcripts with the speaker names.
 
 Getting Started
 ---------------
