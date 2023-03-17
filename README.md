@@ -41,6 +41,13 @@ To run the script, execute the following command:
 python3 summary.py
 ```
 
+Sample Output 
+--------------
+This is the summary insights from the transcript. The lines are chronological and each speaker is highlighted by curly bracekts. 
+
+![Alt Text](https://imgur.com/a/GFOo8yn)
+
+
 Aditional Notes
 ---------------
 
