@@ -10,7 +10,7 @@ These instructions will help you to run the software code smoothly. Clone or dow
 
 ### Prerequisites
 
-To run this project, you need to have Python version 3.8 or above installed in your system. You can download Python from the official website:
+To run this project, you need to have Python version 3.6 or above installed in your system. You can download Python from the official website:
 
 *   [Download Python](https://www.python.org/downloads/)
 
