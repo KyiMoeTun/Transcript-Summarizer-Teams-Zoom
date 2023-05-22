@@ -1,5 +1,5 @@
-{Jules}: Quotes a passage from the Bible and questions its meaning. Considers different interpretations of the passage, including the possibility that he is the evil man. Tries to be a shepherd despite his role as the tyranny of evil men. Interrupts {Brett} and asks him about Marcellus Wallace's appearance. Shoots {Brett} in the shoulder after he hesitates to answer. 
+{Jules}: Quotes a passage from the Bible and questions its meaning. Considers different interpretations of the passage. Describes himself as trying to be a shepherd. Asks Brett about Marcellus Wallace's appearance. Shoots Brett in the shoulder. 
 
-{Brett}: Nervously answers {Jules}' questions, admits to reading the Bible, and describes Marcellus Wallace's appearance when prompted. Gets shot in the shoulder by {Jules}. 
+{Brett}: Nervously admits to reading the Bible. Describes Marcellus Wallace's appearance. Gets shot by Jules. 
 
-{Vincent}: Nods in agreement with {Jules} at one point.
+{Vincent}: Nods in agreement with Jules at one point.
