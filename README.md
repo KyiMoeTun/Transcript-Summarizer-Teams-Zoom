@@ -27,8 +27,9 @@ If you encounter any issues during installation or while running the project, fe
 *   Download/clone the repository at your preferred location.
 *   Get an OpenAI API key to use the gpt-3.5-turbo API. You'll also need to setup your OpenAI API key to run the code. You can sign up for an API key and find more about the official python package at the official [OpenAI API documentation](https://beta.openai.com/docs/api-reference/authentication). Add your API key here:
 
-```python
-openai.api_key = "YOUR_OPENAI_API_KEY"
+Add your API key to .env-example and rename .env-example to .env
+```bash
+OPENAI_KEY=sk-your-openai-api-key
 ```
 
 *   Place the 'transcript.txt' file in the same directory as the script. The contents of this file should be the transcript of the Zoom meeting.

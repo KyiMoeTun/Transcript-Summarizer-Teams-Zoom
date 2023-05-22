@@ -1,5 +1,13 @@
 import openai
 import os
+import time
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
+
+# Initialize OpenAI API key
+openai.api_key = os.getenv("OPENAI_KEY")
 
 # Define function to split text into chunks of 1300 tokens
 def split_text(text):
@@ -20,9 +28,6 @@ with open("transcript.txt", "r") as f:
 # Split transcript into chunks of 1300 tokens
 chunks = split_text(transcript)
 
-# Initialize OpenAI API key
-openai.api_key = "YOUR_OPENAI_API_KEY"
-
 # Summarize each chunk using OpenAI GPT 3.5 Turbo API
 summary_list = []
 for i, chunk in enumerate(chunks):
@@ -31,16 +36,26 @@ for i, chunk in enumerate(chunks):
         {"role": "user", "content": chunk},
         {"role": "assistant", "content": "Keypoints:"}
     ]
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=prompt,
-        max_tokens=300,
-        temperature=0.6,
-        n=1,
-        stop=None
-    )
-    summary = response.choices[0].message['content'].strip()
-    summary_list.append(summary)
+    retries = 0
+    while retries < 5:
+        try:
+            print("Making request to OpenAI API...")
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=prompt,
+                max_tokens=300,
+                temperature=0.6,
+                n=1,
+                stop=None
+            )
+            summary = response.choices[0].message['content'].strip()
+            print("Summary for chunk {}: {}".format(i+1, summary))
+            summary_list.append(summary)
+            break
+        except openai.error.RateLimitError as e:
+            print("Received rate limit error, waiting for 60 seconds before retrying...")
+            time.sleep(60)
+            retries += 1
 
 # Join all summaries into one string
 summary = '\n'.join(summary_list)
@@ -50,4 +65,4 @@ with open("results/summary.txt", "w") as f:
     f.write(summary)
 
 # Print final summary
-print(summary)
+print("Final summary:\n", summary)
