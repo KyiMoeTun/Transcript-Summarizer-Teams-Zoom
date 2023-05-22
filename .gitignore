@@ -1,2 +1,62 @@
-.env
+# MacOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# VSCode
+.vscode/
+.history/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo.dSYM/
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+*.lib
+
+# Anaconda
+.conda/
+conda_env/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env

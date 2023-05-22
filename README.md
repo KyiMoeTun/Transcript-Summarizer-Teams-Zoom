@@ -14,10 +14,10 @@ To run this project, you need to have Python version 3.6 or above installed in y
 
 *   [Download Python](https://www.python.org/downloads/)
 
-After installing Python, use pip to install OpenAI module at least 0.10.2 or above:
+After installing Python, use pip to install requirements.txt
 
 ```bash
-pip install openai
+pip install -r requirements.txt
 ```
 
 If you encounter any issues during installation or while running the project, feel free to raise an issue on this repository.
@@ -32,7 +32,7 @@ Add your API key to .env-example and rename .env-example to .env
 OPENAI_KEY=sk-your-openai-api-key
 ```
 
-*   Place the 'transcript.txt' file in the same directory as the script. The contents of this file should be the transcript of the Zoom meeting.
+*   Place the .txt file(s) that you want to summarize in the /input directory. The contents of these file should be the transcript of the meeting.
 
 ### Running
 
@@ -44,7 +44,7 @@ python3 summary.py
 
 Sample Output 
 --------------
-This is the summary insights from the transcript. The lines are chronological and each speaker is highlighted by curly bracekts. 
+This is the summary insights from the transcript. The lines are chronological and each speaker is highlighted by curly brackets. 
 
 <img src="https://i.imgur.com/wsdmqvi.png" width="700">
 

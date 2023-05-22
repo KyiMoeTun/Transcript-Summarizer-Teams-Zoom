@@ -1,0 +1,27 @@
+{Moderator}
+- Welcomes everyone to the meeting.
+
+{John}
+- Leading the project.
+- Overview of the project is to predict customer churn for a telecom company.
+- Dataset contains information about customer demographics, services subscribed, and usage patterns.
+- Goal is to build a model that can predict which customers are likely to leave.
+- Will need to clean and pre-process the data before building the model.
+- Thinking of trying out some of the popular algorithms like logistic regression, decision trees, and random forests.
+- Evaluation metrics can be accuracy, precision, recall, and F1 score.
+- Deployment of the model on the cloud using a containerization platform like Docker and a cloud service like AWS.
+
+{Sarah}
+- Has experience in data cleaning and pre-processing.
+- Asks for more details about the dataset.
+
+{Mark}
+- A data analyst and will help with data cleaning and visualization.
+- Asks for specific requirements for data cleaning.
+
+{Emily}
+- A machine learning engineer and will work on the predictive modeling part of the project.
+- Asks about the algorithms to use and how to evaluate their performance.
+
+{Moderator}
+- Wraps up the meeting and plans to meet again next week to discuss the progress.
