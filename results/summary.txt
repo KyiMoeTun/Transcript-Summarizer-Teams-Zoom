@@ -1,28 +1,27 @@
 {Moderator}
-- Introduces the meeting and welcomes everyone
-- Acts as a moderator for the meeting
+- Introduction of the meeting.
 
 {John}
-- Leads the project
-- Provides an overview of the project, which is about predicting customer churn for a telecom company
-- Mentions that the dataset contains information such as customer demographics, services subscribed, and usage patterns like call duration and internet usage
-- States that they need to clean and pre-process the data before building the model
-- Plans to try out popular algorithms like logistic regression, decision trees, and random forests for predictive modeling
-- Suggests using accuracy, precision, recall, and F1 score as evaluation metrics
-- Mentions that they need to deploy the model on the cloud using a containerization platform like Docker and a cloud service like AWS
+- Leading the project.
+- Project is about predicting customer churn for a telecom company.
+- Dataset contains customer information, services subscribed, and usage patterns.
+- Goal is to build a model that can predict which customers are likely to leave.
+- Dataset needs to be cleaned and pre-processed before building the model.
+- Planning to use popular algorithms like logistic regression, decision trees, and random forests for predictive modeling.
 
 {Sarah}
-- Has experience in data cleaning and pre-processing
-- Asks for more details about the dataset
+- Has experience in data cleaning and pre-processing.
+- Asked for more details about the dataset.
 
 {Mark}
-- Is a data analyst
-- Offers to help with data cleaning and visualization
-- Asks if there are any specific requirements for the data cleaning
+- Data analyst.
+- Will help with data cleaning and visualization.
+- Asked for specific requirements for data cleaning.
 
 {Emily}
-- Is a machine learning engineer
-- Will work on the predictive modeling part of the project
-- Asks about the algorithms to use and how to evaluate their performance
+- Machine learning engineer.
+- Will work on the predictive modeling part of the project.
+- Asked about which algorithms to use and how to evaluate their performance.
 
-Overall, they plan to reconvene next week to discuss the progress.
+{Moderator}
+- Wrap up the meeting and reconvene next week to discuss the progress.
