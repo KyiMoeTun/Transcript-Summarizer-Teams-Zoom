@@ -1,3 +1,7 @@
+#project files
+input/*
+results/*
+
 # MacOS
 .DS_Store
 .AppleDouble
